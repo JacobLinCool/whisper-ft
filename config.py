@@ -1,0 +1,9 @@
+pretrained = "openai/whisper-small" # base model
+dataset = "mozilla-foundation/common_voice_16_0"
+code = "zh-TW"
+language = "Chinese"
+batch_size = 32 # based on GPU memory
+output_dir = "/datas/store163/jacob/whisper-small-tw"
+cache_dir = "/datas/store163/jacob/dcache"
+datasets_max_in_memory = 32 # based on GPU memory
+evaluate_metric = "cer" # "cer" or "wer"
